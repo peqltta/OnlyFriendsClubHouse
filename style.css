@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Life Savers', cursive;
+}
+.maincontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100vw;
+}
+.navheader{
+    display: flex;
+    float: top;
+    flex-direction: row;
+    padding: 1%;
+    justify-content: space-between;
+    background-image: url(images/headingbg.png);
+}
+.navheader > .socialsbtns {
+    margin-top: 1vh;
+    padding-left: 20%;
+    padding-right: 5%;
+    height: 100%;
+
+}
+.navheader > .socialsbtns:hover {
+    filter: invert(70%);
+}
+.navheader > .connectbtn {
+    height: 100%;
+}
+.navheader > .connectbtn:hover {
+    filter: invert(70%);
+}
+.navheader > .logo {
+    height: 100%;
+}
+.navheader > .logo:hover {
+    filter: invert(70%);
+}
+.content1{
+    text-align : center;
+    padding: 1vw;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(images/content1bg.png);
+    background-size:cover;
+}
+.content1right {
+}
+.hero{
+
+}
+h1 {
+    font-family: 'Life Savers', cursive;
+    color: white;
+    margin-top: 8vh;
+    font-size: 4vw;
+}
+h2 {
+    font-family: 'Rokkitt', serif;
+    color: white;
+    font-size: 1.5vw;
+    margin-bottom: 4vh;
+}
+.paragraph1{
+    color: white;
+    font-family: 'Prata', serif;
+    padding: 1vw;
+    margin-bottom: 2vh;
+
+}
+.paragraph2{
+    color: white;
+    font-family: 'Prata', serif;
+    padding: 1vw;
+}
+.mintbtn {
+    margin-top: 8vh;
+}
+.mintbtn:hover {
+    filter: invert(70%);
+}
+.content2{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding-top: 10vw;
+    background-image: url(images/content2bg.png);
+    background-size:cover;
+}
+.midbanner{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url(images/midbannerbg.png);
+    background-size:cover;
+}
+.midbannerleft{
+    padding: 4vw;
+}
+.joinbtn{
+}
+.joinbtn:hover{
+    filter: invert(70%);
+}
+.hero2{
+    padding-top: 2%;
+}
+.content2 h1{
+    margin-bottom: 8vh;
+}
+.content3{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10vw;
+    background-image: url(images/content3bg.png);
+    background-size:cover;
+}
+.content3center{
+    width: 100% ;
+
+}
+.socials {
+    display: block;
+    margin-top: 8vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8vh;
+}
+.socials:hover{
+    filter: invert(70%);
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    background-image: url(images/footerbg.png);
+    background-size:cover;
+    padding: 4vh;
+    justify-content: flex-end;
+}
+
